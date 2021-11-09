@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.SearchFragment">
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/ti_search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:hint="@string/hint_search"
+        android:textColorHint="@color/white"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/et_search"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/gray"
+            android:cursorVisible="true"
+            android:drawableLeft="@drawable/ic_search"
+            android:drawablePadding="5dp"
+            android:focusable="true"
+            android:paddingLeft="@dimen/title_padding_left"
+            android:maxLines="1"
+            android:paddingTop="@dimen/margin_medium"
+            android:paddingBottom="@dimen/margin_medium"
+            android:textColor="@color/white"
+            android:textCursorDrawable="@color/white"
+            android:textSize="@dimen/medium_label" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/button_search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_smallest"
+        android:backgroundTint="@color/teal_200"
+        android:text="@string/search"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ti_search" />
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:layout_marginTop="@dimen/margin_smallest"
+        android:background="@drawable/divider_shadow"
+        app:layout_constraintTop_toBottomOf="@+id/button_search" />
+
+    <include
+        android:id="@+id/recyclerview"
+        layout="@layout/searched_news_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/divider" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="grey_200">#FF717786</color>
+    <color name="grey_500">#FF485063</color>
+    <color name="grey_700">#FF000000</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="gray">#BFBEBE</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="blue_smoke">#f3f7f9</color>
+    <color name="categoryText">#000000</color>
+    <color name="blue">#6AC5FE</color>
+     <color name="colorStatusConnected">#6fcf97</color>
+    <color name="colorStatusNotConnected">#eb5757</color>
+</resources>

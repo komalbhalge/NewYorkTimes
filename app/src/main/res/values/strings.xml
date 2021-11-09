@@ -1,0 +1,74 @@
+<resources>
+    <string name="app_name">NYTimes</string>
+
+    <string name="title_holder">Rising Prices, Once Seen as Temporary, Threaten Biden’s Agenda</string>
+    <string name="desc_holder">Supply chain disruptions, a worker shortage and pain at the gasoline pump have made inflation an economic and political problem for the White House.</string>
+    <string name="author">By KB</string>
+    <!--Screen Names-->
+    <string name="home">Home</string>
+    <string name="viewed_articles">Most Viewed</string>
+    <string name="shared_articles">Most shared</string>
+    <string name="emailed_articles">Most emailed</string>
+
+    <string name="hint_search">Search in article</string>
+    <string name="search">Search</string>
+    <string name="search_label">Search</string>
+    <string name="search_article_label">Search for Articles</string>
+    <string name="popular_label">Popular Articles</string>
+    <string name="most_viewed_label">Most Viewed</string>
+    <string name="most_emailed_label">Most Emailed</string>
+    <string name="most_shared_label">Most Shared</string>
+    <string name="select_desk">Select News Desk</string>
+
+
+    <string name="no_result">Sorry, no results found</string>
+    <string name="search_result">Search something...</string>
+
+    <!--Pop-up Messages-->
+    <string name="okay">Okay</string>
+    <string name="no_connection_title">No Internet connection</string>
+    <string name="text_connectivity">You\'re back online</string>
+    <string name="no_connection_message">Please make sure WiFi or Cellular data is turned on, then try again!</string>
+    <string name="no_connection_retry">Retry</string>
+    <string name="text_no_connectivity">No internet connection</string>
+
+    <string-array name="news_desk_list">
+        <item>Adventure Sports</item>
+        <item>Arts</item>
+        <item>Automobiles</item>
+        <item>Blogs</item>
+        <item>Books</item>
+        <item>Business</item>
+        <item>Culture</item>
+        <item>Editorial</item>
+        <item>Education</item>
+        <item>Entrepreneurs</item>
+        <item>Environment</item>
+        <item>Fashion</item>
+        <item>Financial</item>
+        <item>Flight</item>
+        <item>Food</item>
+        <item>Foreign</item>
+        <item>Generations</item>
+        <item>Global Home</item>
+        <item>Health</item>
+        <item>Health</item>
+        <item>Jobs</item>
+        <item>Market Place</item>
+        <item>Media</item>
+        <item>National</item>
+        <item>Personal Investing</item>
+        <item>Politics</item>
+        <item>Regionals</item>
+        <item>Retail</item>
+        <item>Retirement</item>
+        <item>Science</item>
+        <item>Sports</item>
+        <item>Technology</item>
+        <item>Television</item>
+        <item>Universal</item>
+        <item>Weather</item>
+        <item>World</item>
+
+    </string-array>
+</resources>

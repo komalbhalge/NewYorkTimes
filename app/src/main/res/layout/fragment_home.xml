@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.HomeFragment">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:fontFamily="@font/nyt_label"
+        android:text="The New York Times"
+        android:textSize="40sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingTop="100dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/title">
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/search_article_label"
+            android:textColor="@color/white"
+            android:textSize="@dimen/large_label" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/white"
+            app:layout_constraintTop_toBottomOf="@+id/tv_publish_date" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_search"
+            android:layout_width="@dimen/home_button_width"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:backgroundTint="@color/teal_700"
+            android:elevation="@dimen/button_elavation"
+            android:inputType="textCapCharacters"
+            android:paddingLeft="@dimen/btn_padding_left_right"
+            android:paddingTop="@dimen/btn_padding_top_bottom"
+            android:paddingRight="@dimen/btn_padding_left_right"
+            android:paddingBottom="@dimen/btn_padding_top_bottom"
+            android:shadowColor="@color/white"
+            android:layout_marginTop="@dimen/margin_small"
+            android:singleLine="true"
+            android:text="@string/search"
+            android:textSize="@dimen/medium_label"
+            app:cornerRadius="@dimen/button_corner_radius" />
+
+        <TextView
+            android:id="@+id/tv_popular"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="@string/popular_label"
+            android:textColor="@color/white"
+            android:textSize="@dimen/large_label" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/white"
+            app:layout_constraintTop_toBottomOf="@+id/tv_publish_date" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_viewed"
+            android:layout_width="@dimen/home_button_width"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/margin_largest"
+            android:backgroundTint="@color/teal_700"
+            android:elevation="@dimen/button_elavation"
+            android:inputType="textCapCharacters"
+            android:paddingLeft="@dimen/btn_padding_left_right"
+            android:paddingTop="@dimen/btn_padding_top_bottom"
+            android:paddingRight="@dimen/btn_padding_left_right"
+            android:paddingBottom="@dimen/btn_padding_top_bottom"
+            android:shadowColor="@color/white"
+            android:singleLine="true"
+            android:text="@string/most_viewed_label"
+            android:textSize="@dimen/medium_label"
+            app:cornerRadius="@dimen/button_corner_radius" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_most_shared"
+            android:layout_width="@dimen/home_button_width"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/margin_largest"
+            android:backgroundTint="@color/teal_700"
+            android:elevation="@dimen/button_elavation"
+            android:inputType="textCapCharacters"
+            android:paddingLeft="@dimen/btn_padding_left_right"
+            android:paddingTop="@dimen/btn_padding_top_bottom"
+            android:paddingRight="@dimen/btn_padding_left_right"
+            android:paddingBottom="@dimen/btn_padding_top_bottom"
+            android:shadowColor="@color/white"
+            android:singleLine="true"
+            android:text="@string/most_shared_label"
+            android:textSize="@dimen/medium_label"
+            app:cornerRadius="@dimen/button_corner_radius" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_most_emailed"
+            android:layout_width="@dimen/home_button_width"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/margin_largest"
+            android:backgroundTint="@color/teal_700"
+            android:elevation="@dimen/button_elavation"
+            android:inputType="textCapCharacters"
+            android:paddingLeft="@dimen/btn_padding_left_right"
+            android:paddingTop="@dimen/btn_padding_top_bottom"
+            android:paddingRight="@dimen/btn_padding_left_right"
+            android:paddingBottom="@dimen/btn_padding_top_bottom"
+            android:shadowColor="@color/white"
+            android:singleLine="true"
+            android:text="@string/most_emailed_label"
+            android:textSize="@dimen/medium_label"
+            app:cornerRadius="@dimen/button_corner_radius" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

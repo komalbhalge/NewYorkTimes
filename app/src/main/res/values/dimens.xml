@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="appbar_padding">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="appbar_padding_top">8dp</dimen>
+    <!-- Labels -->
+    <dimen name="large_label">22sp</dimen>
+    <dimen name="medium_label">20sp</dimen>
+    <dimen name="title_label">18sp</dimen>
+    <dimen name="small_label">16sp</dimen>
+    <dimen name="smallest_label">14sp</dimen>
+
+    <!-- Margins-->
+    <dimen name="home_button_width">300dp</dimen>
+    <dimen name="toolbar_elavation">4dp</dimen>
+    <dimen name="button_elavation">3dp</dimen>
+    <dimen name="button_corner_radius">35dp</dimen>
+    <dimen name="btn_padding_top_bottom">20dp</dimen>
+    <dimen name="btn_padding_left_right">20dp</dimen>
+
+    <dimen name="title_padding_left">10dp</dimen>
+    <dimen name="description_padding_left">15dp</dimen>
+
+    <dimen name="margin_smallest">5dp</dimen>
+    <dimen name="margin_small">10dp</dimen>
+    <dimen name="margin_medium">20dp</dimen>
+    <dimen name="margin_large">45dp</dimen>
+    <dimen name="margin_largest">50dp</dimen>
+    <dimen name="bottom_padding">5dp</dimen>
+</resources>
